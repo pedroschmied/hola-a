@@ -42,7 +42,7 @@ int position_verlet(double *x, double *v, int N, double h, double *F)
 	}
 	return 0;
 }
-int velocity_verlet(double *v, int N, double h, double *F)
+int velocidad(double *v, int N, double h, double *F)
 {
 	int i, k;
 	for(i = 0; i < N; i ++)
